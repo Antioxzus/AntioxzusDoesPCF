@@ -15,9 +15,15 @@
 
   <PropertyGroup>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
-    <!--Remove TargetFramework when this is available in 16.1-->
     <TargetFramework>net462</TargetFramework>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+
+  <PropertyGroup>
+  <Name>ReactStandardControl</Name>
+  <ProjectGuid>0df84c56-2f55-4a80-ac9f-85b7a14bf378</ProjectGuid>
+  <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+  <PcfBuildMode>production</PcfBuildMode>
   </PropertyGroup>
 
   <ItemGroup>
